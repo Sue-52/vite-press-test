@@ -1,0 +1,33 @@
+{
+  "name": "vue-course",
+  "version": "1.0.0",
+  "description": "测试Vite-Press创建Blog",
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/Sue-52/vite-press-test/issues"
+  },
+  "homepage": "https://github.com/Sue-52/vite-press-test#readme",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "vitepress": "^0.20.0"
+  },
+  "devDependencies": {
+    "stylus": "^0.55.0",
+    "stylus-loader": "^6.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sue-52/vite-press-test.git"
+  },
+  "keywords": [],
+  "author": "Sue_52",
+  "license": "ISC"
+}
